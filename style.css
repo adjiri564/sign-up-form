@@ -1,0 +1,138 @@
+body{
+    margin: 0;
+}
+@font-face {
+    font-family: Norse;
+    src: url(./Norse-Bold.otf);
+}
+.container{
+    display: flex;
+}
+
+
+.side-sect{
+    color: white;
+    width: 45%;
+    background-image: url("./image/halie-west-25xggax4bSA-unsplash\ \(1\).jpg");
+    background-size: cover;
+}
+.img{
+    margin-top: 20vh;
+    display: flex;
+    background-color: rgba(0,0,0,.5);
+    height: 150px;
+    gap: 10px;
+    justify-content: center;
+}
+img{
+    height: 150px;
+}
+.odin h2{
+    text-transform: uppercase;
+    font-family: 'Norse', sans-serif;
+    font-size: 3rem;
+}
+.accredit{
+    width: 45%;
+    position: absolute;
+    bottom: 0;
+}
+.accredit p{
+    text-align: center;
+}
+.accredit a{
+    color: white;
+}
+.accredit a:visited{
+    color: white;
+}
+.form-sect{
+    width: 55%;
+    background-color:white;
+    height: 100vh;
+    overflow: auto;
+}
+.text{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 10px;
+    padding-left: 50px;
+}
+.text p{
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.designer{
+    padding: 10px;
+    padding-left: 50px;
+    box-shadow: 4px -11px 12px -14px rgba(0,0,0,0.45),0px 25px 20px -20px rgba(0,0,0,0.45);
+}
+.designer p{
+    font-size: 1.5rem;
+}
+.name{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+.contacts{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 10px;
+}
+.password{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.form-row label{
+    margin-bottom: 2px;
+    text-transform: uppercase;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(78, 77, 77);
+    letter-spacing: 1px;
+}
+.form-row input[type='text'],.form-row input[type='email'],.form-row input[type='tel'],.form-row input[type='password']{
+    width: 250px;
+    border: 1px solid #E5E7EB;
+    border-radius: 3px;
+    padding: 7px;
+    font-size: 14px;
+}
+.form-row input[type='text']:focus,.form-row input[type='email']:focus,.form-row input[type='tel']:focus,.form-row input[type='password']:focus{
+    border: 3px solid blue;
+}
+.form-row input[type='password']:invalid{
+    border: 1px solid #d84a4c;
+    color: #d84a4c;
+    box-shadow: none;
+}
+.alert{
+    color: #d84a4c;
+}
+
+.form-row{
+    display: flex;
+    flex-direction: column;
+}
+.sub-btn{
+    margin: 20px;
+    margin-left: 50px;
+    padding: 10px 20px;
+    color: white;
+    background-color: #596D48;
+    border: 1px solid #596D48;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+.already{
+    margin-left: 50px;
+}
+.already a{
+    color: #596D48;
+    text-decoration: none;
+}

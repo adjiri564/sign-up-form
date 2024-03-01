@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sign Up Form</title>
+</head>
+<body>
+    <div class="container">
+        
+            <section class="side-sect">
+                
+                <div class="img">
+                        <img src="./image/odin-lined.png" alt="">
+                        <div class="odin"><h2>odin</h2></div>
+                </div>
+                <div class="accredit"><p>Photo by Halie West on <a href="https://unsplash.com/photos/green-leaf-plant-in-close-up-photography-25xggax4bSA">Unsplash</a></p></div>
+            </section>
+                <section class="form-sect">
+                <div class="form-content">
+                    <div class="text"><p>
+                        This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
+                        Sign up now to get started.
+                    </p>
+                    <p>You know you want to</p>
+                    </div>
+                    <form action="#" method="get" class="form-design">
+                        <div class="designer">
+                            <p>Let's do this!</p>
+                            <div class="name">
+                                <div class="form-row">
+                                    <label for="first-name">First Name</label>
+                                    <input type="text" name="first-name" id="first-name" required>
+                                </div>
+                                <div class="form-row">
+                                    <label for="last-name">Last Name</label>
+                                    <input type="text" name="last-name" id="last-name" required>
+                                </div>
+                            </div>
+                            <div class="contacts">
+                                <div class="form-row">
+                                    <label for="email">Email</label>
+                                    <input type="email" name="email" id="email" required>
+                                </div>
+                                <div class="form-row">
+                                    <label for="contact">Phone Number</label>
+                                    <input type="tel" name="contact" id="contact" required>
+                                </div>
+                            </div>
+                            <div class="password">
+                                <div class="form-row">
+                                    <label for="password">Password</label>
+                                    <input type="password" name="password" id="password" required minlength="8" maxlength="16">
+                                    <div class="alert"></div>
+                                </div>
+                                <div class="form-row">
+                                    <label for="confirm-password">Confirm Password</label>
+                                    <input type="password" name="confirm-password" id="confirm-password" required minlength="8" maxlength="16">
+                                </div>
+                            </div>
+                        </div>
+                        <button type="submit" class="sub-btn" onclick="return matchPassword()">Create Account</button>
+                        
+                    </form>
+                    <div class="already"><p>Already have an account? <a href="#">Log in</a></p></div>
+                </div>
+            </section>
+            
+            
+        
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
